@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Acceptance Tests]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.tracking.cases.AcceptanceTests">
+        <methods>
+          <include name="testAddCommentsToCard"/>
+          <include name="testCardsGroupingInSprintPage"/>
+          <include name="testNavigateToChatPage"/>
+          <include name="testCreateCardInBacklog"/>
+          <include name="testUserRegistration"/>
+          <include name="testProjectSelectionInChat"/>
+          <include name="testCardMoveFromToDo2WIP"/>
+          <include name="testProjectSelectionInSprint"/>
+          <include name="testNavigateToSprintPage"/>
+          <include name="testProjectCreation"/>
+          <include name="testUserLogout"/>
+          <include name="testAddCardToCurrentSprint"/>
+          <include name="testCardMoveFromTODO2Backlog"/>
+          <include name="testCardMoveFromWIP2Verification"/>
+          <include name="close"/>
+          <include name="testProjectSelectionInBacklog"/>
+          <include name="testCreateCardInSprintPage"/>
+          <include name="testUserDefaultRole"/>
+          <include name="launch"/>
+          <include name="loadTestData"/>
+          <include name="testUserPromotion"/>
+          <include name="testAddingUsersToProject"/>
+          <include name="testAddingEpicsToProject"/>
+          <include name="testCardMoveFromVerification2Complete"/>
+          <include name="testViewChatMessagesWithDate"/>
+          <include name="testInvalidCredentials"/>
+        </methods>
+      </class> <!-- test.tracking.cases.AcceptanceTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Acceptance Tests] -->

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="26" passed="24">
+  <reporter-output>
+    <line>
+      <![CDATA[Application is available @ http://localhost:3000/#/Admin]]>
+    </line>
+    <line>
+      <![CDATA[Entered the values for the User registration]]>
+    </line>
+    <line>
+      <![CDATA[Completed User registration]]>
+    </line>
+    <line>
+      <![CDATA[Logged out]]>
+    </line>
+    <line>
+      <![CDATA[Current User role is Select Role]]>
+    </line>
+    <line>
+      <![CDATA[After promotion, User role is Project]]>
+    </line>
+    <line>
+      <![CDATA[Entered the values for the Project Creation]]>
+    </line>
+    <line>
+      <![CDATA[Completed Project creation]]>
+    </line>
+    <line>
+      <![CDATA[Can see the project created in the Project list]]>
+    </line>
+    <line>
+      <![CDATA[Entered the values for the Card Creation]]>
+    </line>
+    <line>
+      <![CDATA[Completed Card creation]]>
+    </line>
+    <line>
+      <![CDATA[Changing project selection due to current issue with auto page refresh - THIS SHOULD BE FIXED]]>
+    </line>
+    <line>
+      <![CDATA[Can see the Card created in the Cards list]]>
+    </line>
+    <line>
+      <![CDATA[Entered the values for the Card Creation]]>
+    </line>
+    <line>
+      <![CDATA[Completed Card creation]]>
+    </line>
+    <line>
+      <![CDATA[Changing project selection due to current issue with auto page refresh - THIS SHOULD BE FIXED]]>
+    </line>
+    <line>
+      <![CDATA[Can see the Card in the Cards list]]>
+    </line>
+    <line>
+      <![CDATA[Selected Project and Stage for the report]]>
+    </line>
+    <line>
+      <![CDATA[Message Sent]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="251286" started-at="2019-08-01T17:04:27Z" finished-at="2019-08-01T17:08:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="251286" started-at="2019-08-01T17:04:27Z" finished-at="2019-08-01T17:08:38Z">
+      <class name="test.tracking.cases.AcceptanceTests">
+        <test-method status="PASS" signature="launch()[pri:0, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="launch" is-config="true" duration-ms="3620" started-at="2019-08-01T17:04:27Z" finished-at="2019-08-01T17:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="loadTestData()[pri:0, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="loadTestData" is-config="true" duration-ms="39440" started-at="2019-08-01T17:04:31Z" finished-at="2019-08-01T17:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadTestData -->
+        <test-method status="PASS" signature="testApplicationAvailability()[pri:1, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testApplicationAvailability" duration-ms="58" started-at="2019-08-01T17:05:10Z" description="Verify that the application is available on the cloud server" finished-at="2019-08-01T17:05:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is available @ http://localhost:3000/#/Admin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testApplicationAvailability -->
+        <test-method status="PASS" signature="testInvalidCredentials()[pri:2, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testInvalidCredentials" duration-ms="10237" started-at="2019-08-01T17:05:10Z" description="Verify that a User with incorrect Credentials cannot login" finished-at="2019-08-01T17:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCredentials -->
+        <test-method status="PASS" signature="testUserRegistration()[pri:3, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testUserRegistration" duration-ms="24665" started-at="2019-08-01T17:05:21Z" description="Verify that a User can register to the Tracking application" finished-at="2019-08-01T17:05:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered the values for the User registration]]>
+            </line>
+            <line>
+              <![CDATA[Completed User registration]]>
+            </line>
+            <line>
+              <![CDATA[Logged out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method status="PASS" signature="testUserDefaultRole()[pri:4, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testUserDefaultRole" duration-ms="10257" started-at="2019-08-01T17:05:45Z" description="Verify that the Registered User is not a Project Manager by default" finished-at="2019-08-01T17:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserDefaultRole -->
+        <test-method status="PASS" signature="testUserPromotion()[pri:5, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testUserPromotion" duration-ms="30709" started-at="2019-08-01T17:05:56Z" description="Verify that Admin can promote a registered User to Project Manager" finished-at="2019-08-01T17:06:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Current User role is Select Role]]>
+            </line>
+            <line>
+              <![CDATA[After promotion, User role is Project]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserPromotion -->
+        <test-method status="PASS" signature="testProjectCreation()[pri:6, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testProjectCreation" duration-ms="11053" started-at="2019-08-01T17:06:26Z" description="Verify that Project Manager can create a Project" finished-at="2019-08-01T17:06:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered the values for the Project Creation]]>
+            </line>
+            <line>
+              <![CDATA[Completed Project creation]]>
+            </line>
+            <line>
+              <![CDATA[Can see the project created in the Project list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testProjectCreation -->
+        <test-method status="PASS" signature="testAddingEpicsToProject()[pri:7, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testAddingEpicsToProject" duration-ms="8204" started-at="2019-08-01T17:06:37Z" description="Verify that Project Manager can add Epics to the created Project" finished-at="2019-08-01T17:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddingEpicsToProject -->
+        <test-method status="PASS" signature="testAddingUsersToProject()[pri:8, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testAddingUsersToProject" duration-ms="12975" started-at="2019-08-01T17:06:45Z" description="Verify that Project manager can add Users to the created Project" finished-at="2019-08-01T17:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddingUsersToProject -->
+        <test-method status="PASS" signature="testProjectSelectionInBacklog()[pri:9, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testProjectSelectionInBacklog" duration-ms="3407" started-at="2019-08-01T17:06:58Z" description="Verify that User can select the project in the Backlog page" finished-at="2019-08-01T17:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProjectSelectionInBacklog -->
+        <test-method status="PASS" signature="testCreateCardInBacklog()[pri:10, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testCreateCardInBacklog" duration-ms="18285" started-at="2019-08-01T17:07:02Z" description="Verify that the User can create a Card in the Backlog page" finished-at="2019-08-01T17:07:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered the values for the Card Creation]]>
+            </line>
+            <line>
+              <![CDATA[Completed Card creation]]>
+            </line>
+            <line>
+              <![CDATA[Changing project selection due to current issue with auto page refresh - THIS SHOULD BE FIXED]]>
+            </line>
+            <line>
+              <![CDATA[Can see the Card created in the Cards list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateCardInBacklog -->
+        <test-method status="PASS" signature="testAddCardToCurrentSprint()[pri:11, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testAddCardToCurrentSprint" duration-ms="3790" started-at="2019-08-01T17:07:20Z" description="Verify that the User can move the first card in the backlog to the active Sprint" finished-at="2019-08-01T17:07:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCardToCurrentSprint -->
+        <test-method status="PASS" signature="testNavigateToSprintPage()[pri:12, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testNavigateToSprintPage" duration-ms="235" started-at="2019-08-01T17:07:24Z" description="Verify that User can Navigate to Sprint page" finished-at="2019-08-01T17:07:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToSprintPage -->
+        <test-method status="PASS" signature="testProjectSelectionInSprint()[pri:13, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testProjectSelectionInSprint" duration-ms="6259" started-at="2019-08-01T17:07:24Z" description="Verify that User can select the project in the Sprint page" finished-at="2019-08-01T17:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProjectSelectionInSprint -->
+        <test-method status="FAIL" signature="testCreateCardInSprintPage()[pri:14, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testCreateCardInSprintPage" duration-ms="11051" started-at="2019-08-01T17:07:30Z" description="Verify that User can create a Card in the Sprint Page" finished-at="2019-08-01T17:07:41Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(), 'AUTOMATION 2 - Create slides for Demo')]"}
+  (Session info: chrome=75.0.3770.142)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BNP95F9', ip: '192.168.9.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\310104~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 671472f801be3717530c2c488d170d2d
+*** Element info: {Using=xpath, value=//div[contains(text(), 'AUTOMATION 2 - Create slides for Demo')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(), 'AUTOMATION 2 - Create slides for Demo')]"}
+  (Session info: chrome=75.0.3770.142)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BNP95F9', ip: '192.168.9.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\310104~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 671472f801be3717530c2c488d170d2d
+*** Element info: {Using=xpath, value=//div[contains(text(), 'AUTOMATION 2 - Create slides for Demo')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at test.tracking.pobj.SprintPage.createCard(SprintPage.java:45)
+at test.tracking.cases.AcceptanceTests.testCreateCardInSprintPage(AcceptanceTests.java:243)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Entered the values for the Card Creation]]>
+            </line>
+            <line>
+              <![CDATA[Completed Card creation]]>
+            </line>
+            <line>
+              <![CDATA[Changing project selection due to current issue with auto page refresh - THIS SHOULD BE FIXED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateCardInSprintPage -->
+        <test-method status="FAIL" signature="testCardMoveFromToDo2WIP()[pri:15, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testCardMoveFromToDo2WIP" duration-ms="157" started-at="2019-08-01T17:07:41Z" description="Verify that User can Move the Card from To-Do to Work in Progress stage" finished-at="2019-08-01T17:07:42Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 0, Size: 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+at java.util.ArrayList.rangeCheck(Unknown Source)
+at java.util.ArrayList.get(Unknown Source)
+at test.tracking.pobj.SprintPage.changeCardStage(SprintPage.java:89)
+at test.tracking.cases.AcceptanceTests.testCardMoveFromToDo2WIP(AcceptanceTests.java:253)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCardMoveFromToDo2WIP -->
+        <test-method status="PASS" signature="testAddCommentsToCard()[pri:16, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testAddCommentsToCard" duration-ms="7634" started-at="2019-08-01T17:07:42Z" description="Verify that User can Add comments to a Card" finished-at="2019-08-01T17:07:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Can see the Card in the Cards list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddCommentsToCard -->
+        <test-method status="PASS" signature="testCardMoveFromWIP2Verification()[pri:17, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testCardMoveFromWIP2Verification" duration-ms="9671" started-at="2019-08-01T17:07:49Z" description="Verify that User can Move the Card from Work in Progress to Verification stage" finished-at="2019-08-01T17:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCardMoveFromWIP2Verification -->
+        <test-method status="PASS" signature="testCardMoveFromVerification2Complete()[pri:18, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testCardMoveFromVerification2Complete" duration-ms="9592" started-at="2019-08-01T17:07:59Z" description="Verify that User can Move the Card from Verification to Complete stage" finished-at="2019-08-01T17:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCardMoveFromVerification2Complete -->
+        <test-method status="PASS" signature="testCardMoveFromComplete2Accepted()[pri:19, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testCardMoveFromComplete2Accepted" duration-ms="9686" started-at="2019-08-01T17:08:09Z" description="Verify that User can Move the Card from To-Do to Backlog stage" finished-at="2019-08-01T17:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCardMoveFromComplete2Accepted -->
+        <test-method status="PASS" signature="testCardsGroupingInSprintPage()[pri:20, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testCardsGroupingInSprintPage" duration-ms="18" started-at="2019-08-01T17:08:18Z" description="Verify that the Cards in the Sprint Page are grouped by their stage" finished-at="2019-08-01T17:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCardsGroupingInSprintPage -->
+        <test-method status="PASS" signature="testNavigateToReportPage()[pri:21, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testNavigateToReportPage" duration-ms="274" started-at="2019-08-01T17:08:18Z" description="Verify that User can navigate to Reports page " finished-at="2019-08-01T17:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToReportPage -->
+        <test-method status="PASS" signature="testFilterByProjectAndStageReportPage()[pri:22, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testFilterByProjectAndStageReportPage" duration-ms="3656" started-at="2019-08-01T17:08:19Z" description="Verify that User can navigate to Reports page " finished-at="2019-08-01T17:08:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Selected Project and Stage for the report]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFilterByProjectAndStageReportPage -->
+        <test-method status="PASS" signature="testNavigateToChatPage()[pri:23, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testNavigateToChatPage" duration-ms="242" started-at="2019-08-01T17:08:22Z" description="Verify that User can Navigate to Chat page" finished-at="2019-08-01T17:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToChatPage -->
+        <test-method status="PASS" signature="testProjectSelectionInChat()[pri:24, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testProjectSelectionInChat" duration-ms="3298" started-at="2019-08-01T17:08:22Z" description="Verify that User can select the project in the Chat page" finished-at="2019-08-01T17:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProjectSelectionInChat -->
+        <test-method status="PASS" signature="testSendMessage()[pri:25, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testSendMessage" duration-ms="6426" started-at="2019-08-01T17:08:26Z" description="Verify that User can View the chat messages along with time stamp" finished-at="2019-08-01T17:08:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Message Sent]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSendMessage -->
+        <test-method status="PASS" signature="testUserLogout()[pri:26, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="testUserLogout" duration-ms="3002" started-at="2019-08-01T17:08:32Z" description="Verify that User can logout" finished-at="2019-08-01T17:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogout -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="cleanUp" is-config="true" duration-ms="3264" started-at="2019-08-01T17:08:35Z" finished-at="2019-08-01T17:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="FAIL" signature="close()[pri:0, instance:test.tracking.cases.AcceptanceTests@523884b2]" name="close" is-config="true" duration-ms="46" started-at="2019-08-01T17:08:38Z" finished-at="2019-08-01T17:08:38Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BNP95F9', ip: '192.168.9.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\310104~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 671472f801be3717530c2c488d170d2d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BNP95F9', ip: '192.168.9.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\310104~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 671472f801be3717530c2c488d170d2d
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at test.tracking.cases.BaseTestCase.close(BaseTestCase.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.tracking.cases.AcceptanceTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
