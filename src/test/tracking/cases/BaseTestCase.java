@@ -21,6 +21,7 @@ public class BaseTestCase {
 	public void launch()
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\sel-chrome-driver\\chromedriver.exe");
+		System.setProperty("webdriver.baseurl", "http://localhost:3000");
 		driver = new ChromeDriver();
 		driver.get(baseUrl);
 	}
