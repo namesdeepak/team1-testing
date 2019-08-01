@@ -16,15 +16,6 @@ public class BackLogPage extends BaseObject {
 		driver = input;
 	}
 	
-	/**
-	 * The createacc method takes in a name, email, and password and creates a new account. 
-	 * It finds the name, email, password, and confirm password boxes and inputs the parameters.
-	 * It then checks the checkbox and clicks the register button. 
-	 * 
-	 * @param name	full name of the user as a string
-	 * @param email	email of the user as a string
-	 * @param pass	password of the user as a string
-	 */
 	public void createCard(String title, String description, String priority, String type, String load, String stage, String projectName)
 	{
 		try {

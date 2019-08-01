@@ -25,9 +25,9 @@ public class BaseTestCase {
 		driver.get(baseUrl);
 	}
 	
-	@AfterClass
-	public void close()
-	{
-		driver.close();
-	}
+//	@AfterClass
+//	public void close()
+//	{
+//		driver.close();
+//	}
 }

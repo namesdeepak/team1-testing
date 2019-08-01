@@ -70,7 +70,6 @@ public class AcceptanceTests extends BaseTestCase {
 		login.login(testData.getAdmin(), testData.getAdmin_pass());
 		admin.deleteAllUsersExceptAdmin();
 		login.logout();
-//		driver.close();
 		
 	}
 	

@@ -29,7 +29,7 @@ public class SprintPage extends BaseObject {
 			writeTextBox(ObjectLibrary.card_effort, load);
 
 			selectOption(ObjectLibrary.card_priority_lov, priority);
-//			selectOption(ObjectLibrary.card_type_lov, type);
+			selectOption(ObjectLibrary.card_type_lov, type);
 			selectOption(ObjectLibrary.card_stage_lov, stage);
 			selectOption(ObjectLibrary.card_project_lov, projectName);
 			
@@ -40,7 +40,7 @@ public class SprintPage extends BaseObject {
 			AutomationUtil.waitPlease();
 			Reporter.log("Changing project selection due to current issue with auto page refresh - THIS SHOULD BE FIXED");
 			//Hack due to the current page refresh problem
-//			refreshHackProjectSelection(projectName);
+			refreshHackProjectSelection(projectName);
 			AutomationUtil.waitPlease();
 			Assert.assertEquals(true, driver.findElement(By.xpath("//div[contains(text(), '"+ title +"')]")).isDisplayed(), "Card is not visible after creation");
 			Reporter.log("Can see the Card created in the Cards list");
@@ -53,6 +53,7 @@ public class SprintPage extends BaseObject {
 		}
 	}
 	
+
 	public void addComments(String storyTitle, String comments, String projectName)
 	{
 		try {

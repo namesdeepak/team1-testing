@@ -24,6 +24,7 @@ public class ReportPage extends BaseObject {
 			AutomationUtil.waitPlease();
 			selectProject(projectName);
 			selectStage(stageName);
+			AutomationUtil.waitPlease();
 			Reporter.log("Selected Project and Stage for the report");
 			
 		} catch (InterruptedException e) {
